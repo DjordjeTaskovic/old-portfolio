@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE korisnici[
+
+<!ELEMENT korisnici (korisnik)* >
+<!ELEMENT korisnik (ime,emali,poruka)>
+<!ELEMENT ime (#PCDATA)>
+<!ELEMENT emali (#PCDATA)>
+<!ELEMENT poruka (#PCDATA)>
+
+]>
+<korisnici>
+	<korisnik>
+		<ime>Petar</ime>
+		<emali>Petrovic123@hotmail.com</emali>
+		<poruka> Text u poruci  napisan ovde.... </poruka>
+	
+	</korisnik>
+</korisnici>
+
+
+

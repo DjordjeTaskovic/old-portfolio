@@ -1,0 +1,447 @@
+/*  1100px - manje */
+@media screen and (max-width: 1100px)
+{
+#zaglavlje{ width: 100%; }
+#logo{ width: 19%; }
+#navigacija{ width: 56%; }
+#links{width: 25%;}
+#pozadina2 #doc1,#pozadina3 #doc2,#pozadina4 #doc3,#pozadina5 #doc4{
+    width: 80%;
+    margin: 0px 20px;
+    padding: 0px;
+}
+#pozadina3,#pozadina5{
+display: flex;
+justify-content: flex-end;
+}
+#pozadina5 #doc4 #box4 #d4box input[type=text]{
+width: 50%;
+margin: 10px 130px;
+}
+#pozadina5 #doc4 #box4 #d4box textarea{
+    height: 130px;
+    margin: 0px;
+}
+#pozadina4 #doc3 #box3 #boxmidside {
+    font-size: 100px;
+  }
+  #pozadina4 #doc3 #box3 .boxaside h3{
+      padding: 5px 0px;
+      font-size: 25px;
+  }
+ #pozadina4 #doc3 #box3{
+     justify-content: space-between;
+     padding: 0px 25px;
+ }
+ #navigacija li {
+     padding: 0px 10px;
+  }
+  #pozadina2 #doc1 #box1 .box h3{
+     padding: 10px 0px;
+      font-size: 23px;
+  }
+  #pozadina2 #doc1 #box1 .box p{
+    font-size: 14px;
+}
+#pozadina2 #doc1 #box1 .box img{
+    width: 80%;
+    height: 90%;
+}
+#pozadina2 #doc1 h2{
+    font-size: 30px;
+    padding:20px 0px;
+
+
+}
+#pozadina2 #doc1 #box1 {
+    padding: 0px 30px;
+    align-items: flex-start;
+    height: 390px;
+}
+#pozadina3 #doc2 #box2 .d2box {
+    width: 40%;
+    height: 170px;
+  }
+  #pozadina3 #doc2 h2{
+    font-size: 30px;
+    padding:20px 0px;
+}
+  #pozadina3 #doc2 #box2 .d2box h2{
+      padding: 20px 0px;
+
+  }
+  #pozadina3 #doc2 #box2 .d2box:hover{
+    width: 42%;
+}
+#pozadina3 #doc2 #box2{
+    padding: 10px 0px;
+}
+#pozadina4 #doc3 h2{
+    font-size: 30px;
+    padding:20px 0px;
+}
+#pozadina5 #doc4 h2{
+    font-size: 30px;
+    padding:20px 0px;
+}
+#pozadina h1{
+    font-size: 60px;
+}
+#navigacija a{
+    font-size: 22px;
+}
+#links i{
+    font-size: 30px;
+}
+#logo #logos img{
+    width: 100px;
+    height: 90px;
+}
+#navigacija li{
+    line-height: 90px;
+}
+#citat p{
+    width: 320px;
+    height: 50px;
+    font-size: 19px;
+}
+#citat p:hover{
+    width: 340px;
+    font-size: 21px;
+
+}
+#pozadina5 #doc4 #box4 #d4box input[type=text]{
+    width: 60%;
+    margin: 5px auto;
+    }
+    #pozadina5 #doc4 #box4 #d4box input[type=text]:hover{
+        width: 47%;
+        }
+        #pozadina5 #doc4 #box4 #d4box input[type=submit]{
+            font-size: 19px;
+            padding: 9px 0px;
+            widows: 45%;
+        }
+
+
+
+}
+                                                        /*  890px - manje */
+@media screen and (max-width: 890px)
+{
+    #zaglavlje{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+#logo{
+    width: 100%;
+    order: 1;
+    
+}
+#logo #logos {
+    width: 110px;
+    margin: 0px auto;
+    height: 90px;
+}
+#navigacija{
+    width: 90%;
+text-align:center;
+order: 3;
+}
+#navigacija li{
+    padding: 0px 20px;
+    line-height: 50px;
+}
+#navigacija li a{
+    font-size: 20px;
+}
+#navigacija ul{
+    justify-content: center;
+}
+#links{
+    width: 40%;
+    order: 2;
+}
+#links ul{
+    margin:5px 0px ;
+}
+
+#links li{
+    padding: 10px;
+}
+#pozadina h1,#pozadina h2{
+    padding: 50px 0px;
+}
+#pozadina h1{
+    padding-top: 140px;
+    font-size: 55px;
+}
+#pozadina h2{
+    font-size: 27px;
+}
+#citat h3{
+    padding: 30px 0px;
+    font-size: 35px;
+    text-transform: none;
+}
+#citat h3:hover{
+    padding: 40px 0px;
+    transition: 0.8s;
+}
+#citat p{
+    padding-top:10px;
+    float: left;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 97% 100%, 0% 100%);
+border-radius: 8px;
+}
+#citat p:hover{
+    -webkit-clip-path: polygon(0 0, 97% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 97% 0, 100% 100%, 0 100%);
+}
+#pozadina2 #doc1,#pozadina3 #doc2,#pozadina4 #doc3,#pozadina5 #doc4{
+    width: 88%;
+    margin: 0px auto;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 56% 100%, 50% 95%, 44% 100%, 0 100%, 0 0);
+clip-path: polygon(100% 0, 100% 100%, 56% 100%, 50% 95%, 44% 100%, 0 100%, 0 0);
+}
+#pozadina2 #doc1 #box1 {
+    flex-wrap: wrap;
+    height: 680px;
+    align-items: flex-start;
+
+   
+}
+#pozadina2 #doc1 #box1 .box {
+    width: 37%;
+    margin: 5px 0px;
+}
+#pozadina2 #doc1 h2{
+    padding: 8px 0px;
+}
+#pozadina2 #doc1 #box1 .box h3{
+    padding: 5px 0px;
+}
+#pozadina2 #doc1 #box1 .box img{
+    width: 70%;
+    margin: 10px 0px;
+}
+#pozadina4 #doc3 #box3 #boxmidside {
+    font-size: 100px;
+    padding: 40px 0px;
+}
+#pozadina5 #doc4 #box4 #d4box{
+    width: 70%;
+    margin: 0px auto;
+}
+#pozadina5 #doc4 #box4 #d4box input[type=text]{
+    width: 40%;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    font-size: 20px;
+    }
+    #pozadina5 #doc4 #box4 #d4box input[type=text]:hover{
+        width: 41%;
+        padding: 10px 0px;
+        }
+    #pozadina5 #doc4 #box4 #d4box textarea{
+        height: 140px;
+    font-size: 22px;
+    margin: 5px 0px;
+    }
+#futer h2 {
+padding: 0px;
+}
+#pozadina3 #doc2 #box2 .noneblok {
+    display: none;
+     
+ }
+ #pozadina3 #doc2 #box2 .d2box {
+     width: 40%;
+ }
+ #pozadina3 #doc2 #box2 .d2box h2{
+     font-size: 25px;
+     padding: 15px 0px;
+ }
+ #pozadina3 #doc2 #box2 .d2box:hover{
+    width: 41%;
+}
+
+
+
+}
+                                                        /*  550px - manje */
+@media screen and (max-width: 550px) {
+    #pozadina2 #doc1,#pozadina3 #doc2,#pozadina4 #doc3,#pozadina5 #doc4{
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        
+    }
+    #logo{
+        width: 50%;
+        height: 60px;
+        order: 2;
+    }
+    #logo #logos img{
+        width: 60%;
+        height: 60px;
+        margin-left: 30px;
+        border-radius: 0px;
+
+    }
+    #links{
+        display:none;
+    } 
+    #navigacija{
+        order: 1;
+        width: 50%;
+    }
+    #navigacija ul{ display:none;
+
+     }
+    #dugme{
+        margin-top: 11px;
+        display:block; 
+        margin-right: 60px;
+        width: 30%;
+
+
+    }
+    #navigacija:hover ul{
+    display:block;
+    width:90%;
+    background-color:rgb(115, 165, 206);
+    border-radius:5px;
+    margin:0px auto;
+    }
+    #navigacija:hover ul li{
+    display:block;
+    padding:0px;
+    }
+    #navigacija:hover ul li a{
+    color:#fff;
+    }
+
+
+
+
+
+    #pozadina h1{
+        margin-top: 50px;
+        padding: 50px 0px 30px 0px;
+        font-size: 40px;
+        background-color: #0003;
+
+    }
+    #pozadina h2{
+        font-size: 23px;
+        padding: 30px;
+        margin-bottom: 90px;
+
+    }
+    #citat p{
+        margin:0px;
+        width: 50%;
+        float: right;
+        border-radius: 5px;
+        -webkit-clip-path: polygon(3% 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(3% 0, 100% 0, 100% 100%, 0 100%);
+    } 
+    #citat p:hover{
+        width: 60%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
+
+    }
+    #pozadina2 #doc1 {
+        height: 970px;
+    }
+    #pozadina2 #doc1 #box1 .box {
+        width: 85%;
+        margin: 10px auto;
+        border-radius: 10%;
+        letter-spacing: 0px;
+        color: #fff;
+        padding: 20px;
+    }
+    #pozadina2 #doc1 #box1 .box h3 {
+        padding:0px;
+    }
+    #pozadina2 #doc1 #box1 .box p {
+        padding-bottom: 10px;
+    }
+    #pozadina2 #doc1 #box1 .outer {
+        height: 250px;
+    }
+    #pozadina2 #doc1 #box1 .box img {
+        width: 80%;
+        
+    }
+    #pozadina3 #doc2 #box2 {
+        display: block;
+        height: 500px;
+    }
+    #pozadina3 #doc2 #box2 .d2box {
+        width: 100%;
+        height: 150px;
+        margin:0px auto;
+
+    }
+    #pozadina3 #doc2 #box2 .d2box:hover{
+        width: 90%;
+    }
+    #pozadina4 #doc3 #box3{
+        flex-direction: column;
+    }
+    #pozadina4 #doc3 #box3 #boxmidside,#pozadina4 #doc3 #box3 .boxaside{
+        width: 80%;
+        margin: 0px 10%;
+        border-radius: 10%;
+    }
+    #pozadina4 #doc3 #box3 #boxmidside{
+        order: 1;
+        padding: 0px;
+    }
+    #pozadina4 #doc3 #box3 #boxmidside i{
+        font-size: 100px;
+    }
+    #pozadina4 #doc3 #box3 .boxaside{
+        order: 2;
+    }
+    #pozadina4 #doc3 #box3{
+        padding-top: 5px;
+    }
+
+
+    #pozadina5 #doc4 #box4 #d4box{
+        width: 90%;
+        margin: 0px 5%;
+    }
+    #pozadina5 #doc4 #box4 {
+        padding: 40px 0px 0px 0px;
+    }
+    #pozadina5 #doc4 #box4 #d4box input[type=text]{
+        margin:10px;
+        width: 80%;
+    }
+    #pozadina5 #doc4 #box4 #d4box input[type=text]:hover{
+        margin:10px;
+        width: 70%;
+    }
+    #pozadina5 #doc4 #box4 #d4box input[type=submit]{
+        width: 80%;
+        margin: 10px auto;
+    }
+     #links ul{
+        margin: 0px;
+     }
+    
+
+
+
+    #futer h2{
+        font-size: 18px;
+    }
+
+ }
